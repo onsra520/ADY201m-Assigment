@@ -12,7 +12,7 @@ class XGboost_Model:
     def __init__(self, DataSet, New_Accident_Data):
         self.Accident_Information = DataSet
         self.New_Accident_Information = New_Accident_Data
-        self.Model_Path = os.path.join('Model', 'Model_Bundle.pkl')
+        self.Model_Path = os.path.join('Model', 'XGBoost_Model_Bundle.pkl')
         self.Results_Performance = None
         self.Predict = self.Predict_Accident_Severity()
     
